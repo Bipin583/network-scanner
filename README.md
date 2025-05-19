@@ -18,4 +18,31 @@ A simple Python script to scan a local network for active devices using socket c
    ```bash
    git clone https://github.com/Bipin583/network-scanner.git
    cd network-scanner
-   
+   Usage
+
+Run the script and enter a network range:
+
+bash
+
+Copy
+python3 scanner.py
+Example input: 192.168.1.0/24
+
+Sample output:
+
+text
+
+Copy
+Scanning network: 192.168.1.0/24
+[+] 192.168.1.1 is active
+[+] 192.168.1.100 is active
+Scan completed in 5.32 seconds
+Results saved to scan_results.txt
+Example Output
+scan_results.txt:
+
+text
+
+Copy
+192.168.1.1
+192.168.1.100
