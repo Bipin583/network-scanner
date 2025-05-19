@@ -1,15 +1,21 @@
-# 👋 Hi, I'm Bipin!
+# Network Scanner
 
-I'm a third-year B.Tech student in Computer Science, passionate about **cybersecurity**, **ethical hacking**, and **penetration testing**. I enjoy experimenting with tools like Kali Linux, Nmap, Burp Suite, and Wifite to learn about network security, web vulnerabilities, and Wi-Fi pentesting.
+A simple Python script to scan a local network for active devices using socket connections. Built for educational purposes to learn about networking and cybersecurity.
 
-## 🔒 Skills
-- **Tools**: Kali Linux, Nmap, Burp Suite, Wireshark, Wifite, aircrack-ng
-- **Languages**: Python, Bash, C
-- **Platforms**: TryHackMe, Hack The Box
+⚠️ **Legal Notice**: Only scan networks you own or have explicit permission to scan. Unauthorized scanning is illegal.
 
-## 📚 Projects
-- [Network Scanner](https://github.com/Bipin583/network-scanner): A Python tool to discover devices on a local network.
+## Features
+- Scans a specified network range (e.g., 192.168.1.0/24).
+- Detects active devices by attempting to connect to port 80.
+- Saves results to `scan_results.txt`.
 
-## 📫 Connect
-- LinkedIn: [linkedin.com/in/bipin-b-0759511b6]
-- Email: [bbipin9039@gmail.com]
+## Requirements
+- Python 3.x
+- No external libraries needed
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Bipin583/network-scanner.git
+   cd network-scanner
+   
