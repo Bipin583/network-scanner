@@ -5,7 +5,7 @@ I'm a third-year B.Tech student in Computer Science, passionate about **cybersec
 ## 🔒 Skills
 - **Tools**: Kali Linux, Nmap, Burp Suite, Wireshark, Wifite, aircrack-ng
 - **Languages**: Python, Bash, C
-- **Platforms**: TryHackMe, Hack The Box (add your profiles if applicable)
+- **Platforms**: TryHackMe, Hack The Box
 
 ## 📚 Projects
 - [Network Scanner](https://github.com/Bipin583/network-scanner): A Python tool to discover devices on a local network.
